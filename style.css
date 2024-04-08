@@ -1,0 +1,59 @@
+body {
+    border-radius: 50%; /* Rounded corners for the container */
+    font-family: 'Arial', sans-serif; /* Consistent font for better readability */
+    display: flex; /* Use flexbox for centering the content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #87CEEB; /* Light blue background color */
+    transition: background-color 1s ease; /* Smooth transition for background changes */
+}
+
+.container {
+    width: 150px; /* Fixed width */
+    height: 30px; /* Fixed height */
+    /*border-radius: 20px;  Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    padding: 20px; /* Padding inside the container */
+    transition: background-color 1s ease; /* Smooth transition for background changes */
+    /* Default background if needed */
+}
+
+#current-time {
+    font-size: 17px; /* Large font size for the time */
+    color: #333; /* Dark text color for contrast */
+    margin: 0; /* Remove default margin */
+}
+
+#timezone-select {
+    font-size: 12px; /* Smaller font size for the label */
+    color: #666; /* Lighter text color for the label */
+    text-transform: uppercase; /* Uppercase text for the label */
+    letter-spacing: 1px; /* More spacing between letters for the label */
+    margin-top: 10px; /* Space above the label */
+}
+
+
+
+.day {
+    background-color: #EF810E; /* Light blue for daytime */
+}
+
+.night {
+    background-color: #001A26; /* Navy blue for nighttime */
+}
+
+/*#current-time {
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the text 
+    border-radius: 5px; /* Rounded corners for the div 
+    transition: background-color 1s ease, color 1s ease; Transition for background and text color changes
+}*/
+
